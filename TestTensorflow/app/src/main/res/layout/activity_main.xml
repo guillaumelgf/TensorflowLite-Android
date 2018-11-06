@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Sepal-Length : "
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/sepalLength"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sepal Length"
+        android:inputType="numberDecimal"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Sepal-Width : "
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/sepalWidth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sepal Width"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Petal-Length : "
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/petalLength"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Petal Length"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Petal-Width : "
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/petalWidth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Petal Width"
+        android:inputType="numberDecimal"
+        />
+
+
+    <Button
+        android:id="@+id/predict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Predict"
+        />
+    <Button
+        android:id="@+id/raz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RAZ"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result:"
+        />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Click on predict to obtain a result."
+        />
+</LinearLayout>
