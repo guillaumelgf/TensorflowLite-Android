@@ -3,14 +3,11 @@ package com.example.cnqv2027.testtensorflow;
 import android.content.res.AssetFileDescriptor;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import org.tensorflow.lite.Interpreter;
-
-import org.w3c.dom.Text;
 
 import java.io.FileInputStream;
 import java.io.IOException;
